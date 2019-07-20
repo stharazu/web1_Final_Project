@@ -1,4 +1,5 @@
 <!DOCTYPE HTML>
+<!--updated on 20 July. (Kelsi)^^>
 <!--reference 1:http://pet.unicharm.co.jp/brand/aiken.html-->
 <html>
 <head>
@@ -34,6 +35,47 @@ width:90%}
   .topnav a.active {
   background-color: #ffcccc;
   color: gray;}
+
+  .container {
+    position: relative;
+    width: 300px;
+  }
+
+  .image {
+    display: block;
+    width: 300px;
+    height: 400px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 400px;
+    width: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #db7093;
+  }
+
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+  .text {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
+
   </style>
 
 
@@ -41,11 +83,10 @@ width:90%}
       <a href="index.html">Home</a>
       <a href="About Us.html">About Us</a>
       <a href="Breeds.html">Breeds</a>
-      <a href="Vaccinations.html">Vaccinations</a>
-      <a class="active" href="Foods & Nutrition.html">Foods & Nutrition</a>
-      <a href="Accessories.html">Accessories</a>
-      <a href="Special Service.html">Special Service</a>
       <a href="Sell Adoption">Sell & Adoption</a>
+      <a class="active" href="Shop.html">Shop</a>
+      <a href="Special Service.html">Special Service</a>
+      <a href="Vaccinations.html">Vaccinations</a>
       <a href="Contact.html">Contact</a>
     </div>
 <hr style="border: 2px solid gray;">
@@ -60,32 +101,215 @@ width:90%}
     <th><img src="dog2.jpg" width="180"></th>
   </tr>
 
+
   <tr>
-    <th><a href="Dry Food.html"><img src="dry food1.jpg" alt="Dry Dog Food1" width=300></a></th>
-    <th><a href="Wet Dog Food.html"><img src="dry food2.jpg" alt="Dry Dog Food2" width=300></a></th>
-    <th><a href="Wet Dog Food.html"><img src="dry food3.jpg" alt="Dry Dog Food3" width=300></a></th>
-    <th><a href="Wet Dog Food.html"><img src="dry food4.jpg" alt="Dry Dog Food3" width=300></a></th>
+    <td><div class="container">
+      <img src="wet food1.png" alt="Wet1" class="image">
+      <div class="overlay">
+        <div class="text"><b>Ingredient:</b><br/>Cereals, meats(chicken extract, sasami power), sugars, animal fats, herbs, vegetables, fish powder, vitamins(A, B1, B2, B6, B12, D, E, K)<br/>
+          <br/><b>Component & Nutrition:</b><br/>
+        <table>
+          <table border="0" cellpadding="3" cellspacing="0">
+            <tr>
+              <th>Protein</th>
+              <th>28%</th>
+            </tr>
+            <tr>
+              <th>Fats</th>
+              <th>6%</th>
+            </tr>
+            <tr>
+              <th>Fiber</th>
+              <th>3%</th>
+            </tr>
+            <tr>
+              <th>Moisture</th>
+              <th>30%</th>
+              <tr>
+                <th>Energy</th>
+                <th>290kcal/100g</th>
+              </tr>
+            </tr>
+          </table>
+    </div>
+      </div>
+    </div></td>
+    <td><div class="container">
+      <img src="wet food2.jpg" alt="Wet2" class="image">
+      <div class="overlay">
+        <div class="text"><b>Ingredient:</b><br/>Cereals, meats(chicken extract, sasami power), sugars, animal fats, herbs, vegetables, fish powder, vitamins(A, B1, B2, B6, B12, D, E, K)<br/>
+          <br/><b>Component & Nutrition:</b><br/>
+        <table>
+          <table border="0" cellpadding="3" cellspacing="0">
+            <tr>
+              <th>Protein</th>
+              <th>15.5%</th>
+            </tr>
+            <tr>
+              <th>Fats</th>
+              <th>6%</th>
+            </tr>
+            <tr>
+              <th>Fiber</th>
+              <th>3%</th>
+            </tr>
+            <tr>
+              <th>Moisture</th>
+              <th>30%</th>
+              <tr>
+                <th>Energy</th>
+                <th>290kcal/100g</th>
+              </tr>
+            </tr>
+          </table>
+    </div>
+      </div>
+    </div></td>
+    <td><div class="container">
+      <img src="wet food3.jpg" alt="Wet" class="image">
+      <div class="overlay">
+        <div class="text"><b>Ingredient:</b><br/>Cereals, meats(chicken extract, sasami power), sugars, animal fats, herbs, vegetables, fish powder, vitamins(A, B1, B2, B6, B12, D, E, K)<br/>
+          <br/><b>Component & Nutrition:</b><br/>
+        <table>
+          <table border="0" cellpadding="3" cellspacing="0">
+            <tr>
+              <th>Protein</th>
+              <th>15.5%</th>
+            </tr>
+            <tr>
+              <th>Fats</th>
+              <th>6%</th>
+            </tr>
+            <tr>
+              <th>Fiber</th>
+              <th>3%</th>
+            </tr>
+            <tr>
+              <th>Moisture</th>
+              <th>30%</th>
+              <tr>
+                <th>Energy</th>
+                <th>290kcal/100g</th>
+              </tr>
+            </tr>
+          </table>
+    </div>
+      </div>
+    </div></td>
+    <td><div class="container">
+      <img src="wet food4.jpg" alt="Wet4" class="image">
+      <div class="overlay">
+        <div class="text"><b>Ingredient:</b><br/>Cereals, meats(chicken extract, sasami power), sugars, animal fats, herbs, vegetables, fish powder, vitamins(A, B1, B2, B6, B12, D, E, K)<br/>
+          <br/><b>Component & Nutrition:</b><br/>
+        <table>
+          <table border="0" cellpadding="3" cellspacing="0">
+            <tr>
+              <th>Protein</th>
+              <th>20%</th>
+            </tr>
+            <tr>
+              <th>Fats</th>
+              <th>7%</th>
+            </tr>
+            <tr>
+              <th>Fiber</th>
+              <th>3%</th>
+            </tr>
+            <tr>
+              <th>Moisture</th>
+              <th>30%</th>
+              <tr>
+                <th>Energy</th>
+                <th>290kcal/100g</th>
+              </tr>
+            </tr>
+          </table>
+    </div>
+      </div>
+    </div></td>
   </tr>
   <tr>
-    <th>For puppies</th>
-    <th>For 7 years old or older</th>
-    <th>For 10 years old or older<br/>(large and medium breeds)</th>
-    <th>For 13 years old or older</th>
+    <th>Health maintenance for dogs<br/>over 7 years old (diet type)<br/>Capacity: 2.5kg<br/>Price: 698yen</th>
+    <th>Health maintenance for dogs<br/>over 10 years old (diet type)<br/>Capacity: 2kg<br/>Price: 628yen</th>
+    <th>Health maintenance for dogs<br/>over 13 years old (diet type)<br/>Capacity: 2kg<br/>Price: 628yen</th>
+    <th>Health maintenance for <u>Shiba Inu(dog)</u> over 1 year old<br/>Capacity: 2.3kg<br/>Price: 658yen</th>
   </tr>
+
+
   <tr>
     <td colspan="4"><br/></td>
   </tr>
   <tr>
-    <th><a href="Dry Food.html"><img src="dry food5.jpg" alt="Dry Dog Food5" width=300></a></th>
-    <th><a href="Wet Dog Food.html"><img src="dry food6.jpg" alt="Dry Dog Food6" width=300></a></th>
-    <th><a href="Wet Dog Food.html"><img src="dry food7.jpg" alt="Dry Dog Food7" width=300></a></th>
-    <th><a href="Wet Dog Food.html"><img src="dry food8.jpg" alt="Dry Dog Food8" width=300></a></th>
+    <th><div class="container">
+      <img src="wet food5.jpg" alt="Wet5" class="image">
+      <div class="overlay">
+        <div class="text"><b>Ingredient:</b><br/>Cereals, meats(chicken extact, beef power), sugars, animal fats, fish extact, small fish powder, vegetables, vitamins(A, B1, B2, B6, B12, C, D, E, K)<br/>
+          <br/><b>Component & Nutrition:</b><br/>
+        <table>
+          <table border="0" cellpadding="3" cellspacing="0">
+            <tr>
+              <th>Protein</th>
+              <th>20%</th>
+            </tr>
+            <tr>
+              <th>Fats</th>
+              <th>7%</th>
+            </tr>
+            <tr>
+              <th>Fiber</th>
+              <th>3%</th>
+            </tr>
+            <tr>
+              <th>Moisture</th>
+              <th>30%</th>
+              <tr>
+                <th>Energy</th>
+                <th>290kcal/100g</th>
+              </tr>
+            </tr>
+          </table>
+    </div>
+      </div>
+    </div></th>
+    <th><div class="container">
+      <img src="wet food6.jpg" alt="Wet6" class="image">
+      <div class="overlay">
+        <div class="text"><b>Ingredient:</b><br/>Cereals, meats(chicken extact, beef power), beans, animal fats, fish extact, small fish powder, vegetables, vitamins(A, B1, B2, B6, B12, C, D, E, K)<br/>
+          <br/><b>Component & Nutrition:</b><br/>
+        <table>
+          <table border="0" cellpadding="3" cellspacing="0">
+            <tr>
+              <th>Protein</th>
+              <th>20%</th>
+            </tr>
+            <tr>
+              <th>Fats</th>
+              <th>7%</th>
+            </tr>
+            <tr>
+              <th>Fiber</th>
+              <th>3%</th>
+            </tr>
+            <tr>
+              <th>Moisture</th>
+              <th>30%</th>
+              <tr>
+                <th>Energy</th>
+                <th>290kcal/100g</th>
+              </tr>
+            </tr>
+          </table>
+    </div>
+      </div>
+    </div></th>
+        <th></th>
+        <th></th>
   </tr>
   <tr>
-    <th>For 1 year old or older<br/>(small breeds)</th>
-    <th>For 7 years old or older<br/>(small breeds)</th>
-    <th>For 1 year old or older<br/>(shiba inu)</th>
-    <th>For 7 years old or older<br/>(shiba inu)</th>
+    <th>For <u>small dogs</u> over 1 year old<br/><br/>Capacity: 1kg<br/>Price: 378yen</th>
+    <th>For <u>whole-growth stage dogs</u> <br/>over 7 years old<br/>Capacity: 2.5kg<br/>Price: 698yen</th>
+    <th></th>
+    <th></th>
   </tr>
 
 </table>
